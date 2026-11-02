@@ -6,9 +6,9 @@ from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.tools import tool
 from pydantic import ValidationError
 
-from ..agent.state import AgentState
 from ..client.bedrock_client import llm
 from ..client.tavily_client import client as tavily
+from ..langgraph_agent.state import AgentState
 from ..schemas import KYCReport
 
 

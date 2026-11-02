@@ -3,7 +3,7 @@ from typing import Literal
 from langchain_core.messages import AIMessage
 from langgraph.graph import END, START, StateGraph
 
-from ..agent.state import AgentState
+from ..langgraph_agent.state import AgentState
 from .nodes import agent_node, tool_node, validate_node
 
 
