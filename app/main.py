@@ -7,10 +7,10 @@ from .deepagent.deep_agent import agent, extract_json
 from .schemas import KYCReport
 
 input_payload = {
-    "case_id": "cust_coremobile_001",
-    "name": "Htet Wai Yan",
-    "company_name": "株式会社コアモバイル",
-    "company_address": "東京都台東区雷門2丁目17番2号 NEWNO浅草5階",
+  "case_id": "cust_001",
+  "name": "内堀 和也",
+  "company_name": "稲川会",
+  "company_address": "東京都 港区六本木7-8-4"
 }
 
 
