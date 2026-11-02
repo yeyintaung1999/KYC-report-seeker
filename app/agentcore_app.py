@@ -1,6 +1,3 @@
-import json
-import os
-
 from bedrock_agentcore.runtime import BedrockAgentCoreApp
 
 from app.main import agent
