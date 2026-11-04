@@ -1,3 +1,6 @@
+# Bedrock AgentCore SDK
+bedrock-agentcore>=1.0.0
+
 # Deep Agents & LangChain Ecosystem
 deepagents>=0.1.0
 langchain-aws>=0.2.35
